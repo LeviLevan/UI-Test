@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../../assets/fonts/Inter.ttf') format('truetype'),
+    	 url('../../assets/fonts/Inter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Newake';
+    src: url('../../assets/fonts/NewakeFont.otf') format('truetype'),
+    	 url('../../assets/fonts/NewakeFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../assets/fonts/Gotham-Book.otf') format('truetype'),
+    	 url('../../assets/fonts/Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+section{
+	padding-left:15px;
+	padding-right:15px;
+}
+@media all and (min-width: 575px) {
+	
+}
+@media all and (min-width: 768px) {
+
+}
+@media all and (min-width: 880px) {
+	
+}
+@media all and (min-width: 992px) {
+	
+}
+@media all and (min-width: 1024px) {
+	
+}
+@media all and (min-width: 1200px) {
+	
+}
+@media all and (min-width: 1440px) {
+	section{
+		max-width: 90%;
+		margin: 0 auto;
+	}
+}
+@media all and (min-width: 1720px) {
+	section{
+		max-width: 1528px;
+		margin: 0 auto;
+	}
+}
