@@ -2,7 +2,7 @@ footer{
 	background-color:var(--background-dark);
 	padding-bottom: 40px;
 	section.footer{
-		padding-top: 227px;
+		padding-top: 160px;
 		display: flex;
         align-items: center;
         justify-content: space-between;
@@ -21,7 +21,7 @@ footer{
 			padding: 0;
 			li{
 				a{	
-					font-family: var(--menu-footer-font);
+					font-family: var(--second-font-text);
 					color:var(--white-text);
 					font-size: 20px;
 					text-decoration: none;
