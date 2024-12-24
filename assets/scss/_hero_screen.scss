@@ -2,7 +2,7 @@ section.hero{
 	max-width:100%;
 	position:relative;
 	padding:0;
-	margin-bottom: 200px;
+	margin-bottom: 193px;
 	.container-hero {
 		min-height:740px;
 		position: relative;
@@ -12,7 +12,7 @@ section.hero{
 	    .hero-left{
 	    	display: none;
 	    	position: absolute;
-	    	bottom: 0;
+	    	bottom: 120px;
 	    	left: 0;
 	    	z-index: -1;
 	    }
@@ -25,7 +25,7 @@ section.hero{
 			line-height: 100%;
 			letter-spacing: -16px;
 		    text-transform: uppercase;
-		    font-weight: 400;
+		    font-weight: 500;
 		    display:inline-block;
 		    color: transparent;
 		    background-clip: text;
@@ -36,9 +36,9 @@ section.hero{
 	    .hero-right{
 	    	display: none;
 	    	position: absolute;
-	    	top: -64px;
+	    	top: -120px;
 	    	right: 0;
-	    	z-index: -1;
+	    	z-index: 0;
 	    }
 	    .block-info{
 	    	display:flex;
@@ -46,10 +46,14 @@ section.hero{
 	    	justify-content:center;
 	    	flex-direction: column;
 	    	z-index: 2;
+	    	position: relative;
+    		top: -31px;
 	    	.social-icons{
 	    		display: flex;
     			gap: 12px;
-    			margin-bottom: 50px;
+    			position:relative;
+    			bottom:47px;
+    			right: -4px;
 	    		a{
 	    			cursor:pointer;
 	    			transform: scale(1);
@@ -78,7 +82,7 @@ section.hero{
 	section.hero .container-hero{
 		min-height:1000px;
 		.block-info .social-icons{
-			gap:34px;
+			gap:35px;
 		}
 		.hero-left{
 			display: block;
@@ -91,7 +95,7 @@ section.hero{
 		}
 	}
 	section.hero a.direction{
-		bottom: -20px;
+		bottom: 25px;
 	}
 
 }

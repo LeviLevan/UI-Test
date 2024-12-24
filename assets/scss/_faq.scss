@@ -6,6 +6,7 @@ section.faq{
 		text-align: center;
 		line-height: 120%;
 		margin-bottom: 20px;
+		letter-spacing: -1px;
 	}
 	.schema-faq-code{
 		display: flex;
@@ -27,13 +28,14 @@ section.faq{
 				font-size: 28px;
 				line-height: 120%;
 				font-weight: 600;
-				 display: flex;
-                align-items: center; /* Убедимся, что стрелка выровнена по центру */
+				letter-spacing: 1px;
+				display: flex;
+                align-items: center;
                 justify-content: space-between;
 				&::after{
 					content: "";
 					position: absolute;
-					right: 0;
+					right: -6px;
 					top:50%;
 					transform: translate(50%, -50%);
 					width:24px;
@@ -71,7 +73,7 @@ section.faq{
 @media all and (min-width: 1440px) {
 	section.faq .schema-faq-code .faq-question{
 		.faq-q,.faq-a{
-			max-width: 78%;
+			max-width: 83%;
 		}
 	}
 }

@@ -1,8 +1,8 @@
 footer{
 	background-color:var(--background-dark);
-	padding-bottom: 40px;
+	padding-bottom: 47px;
 	section.footer{
-		padding-top: 160px;
+		padding-top: 144px;
 		display: flex;
         align-items: center;
         justify-content: space-between;
@@ -15,7 +15,7 @@ footer{
 			display: flex;
 			flex-wrap:wrap;
 			justify-content: flex-end;
-			gap: 8px 30px;
+			gap: 8px 17px;
 			list-style: none;
 			margin:0;
 			padding: 0;
@@ -37,7 +37,7 @@ footer{
 	    border: 0;
 	    height: 1px;
 	    background-color: #E6E6E6;
-	    margin-top: 30px;
+	    margin-top: 35px;
 	    margin-bottom: 0;
 	}
 }

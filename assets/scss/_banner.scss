@@ -5,11 +5,12 @@ section.banner{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height:180px;
+	min-height:185px;
+	padding: 0;
 	img{
 		display: none;
 		position: absolute;
-		left: 0;
+		left: -33px;
     	bottom: 0;
 	}
 	.container-text {
@@ -27,7 +28,7 @@ section.banner{
 	&::before{
 		content: "";
 		position: absolute;
-		top: 0;
+		top: 4px;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -42,13 +43,13 @@ section.banner{
 
 @media all and (min-width: 1200px) {
 	section.banner{
-		margin-top:200px;
+		margin-top:213px;
 		img{
 			display: block;
 		}
 		.container-text{
 			max-width: 64%;
-			margin: 0 0 0 145px;
+			margin: 0 0 0 160px;
 		}
 	}
 }
