@@ -6,10 +6,24 @@
     wp_custom = {
 
         init: function () {
-            this.faq();
+            this.headerMenu();
+            this.faq(); 
         },
 
-       faq: function() {
+        headerMenu:function(){
+            const menuToggle = document.querySelector('.menu-toggle');
+            const menu = document.querySelector('.menu');
+            const hamburgerIcon = document.querySelector('.hamburger-icon');
+
+            menuToggle.addEventListener('click', () => {
+                menu.classList.toggle('open');
+                menuToggle.classList.toggle('open'); // Добавляем/удаляем класс для гамбургера
+            });
+
+
+        },
+
+        faq: function() {
             const faqQuestions = document.querySelectorAll('.faq-question');
             faqQuestions.forEach(question => {
                 const questionHeader = question.querySelector('.faq-q');
